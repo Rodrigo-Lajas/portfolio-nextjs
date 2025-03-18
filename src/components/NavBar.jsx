@@ -61,7 +61,7 @@ export default function Navbar() {
                             className={mobileNavLi}
                             key={item.id}
                         >
-                            <Link href={item.link} onClick={closeMenu}>
+                            <Link href={item.href} onClick={closeMenu}>
                                 {item.title}
                             </Link>
                         </li>
