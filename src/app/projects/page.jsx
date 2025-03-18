@@ -59,7 +59,7 @@ export default function Proyectos() {
                 <button className={customButton} onClick={() => setSelectTag('Java')}>Java</button>
                 <button className={customButton} onClick={() => setSelectTag('JavaScript')}>JavaScript</button>
                 <button className={customButton} onClick={() => setSelectTag('React')}>React</button>
-                <button className={customButton} onClick={() => setSelectTag('Tailwind')}>Tailwind</button>
+                {/* <button className={customButton} onClick={() => setSelectTag('Tailwind')}>Tailwind</button> */}
             </div>
 
             {/*implementacion de tarjeta*/}
