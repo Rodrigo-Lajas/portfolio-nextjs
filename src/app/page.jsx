@@ -27,7 +27,16 @@ export default function Page() {
                 </div>
                 <div className="flex flex-col items-center justify-center m-4">
                     <h1 data-aos="fade-right" className="flex items-center justify-center m-4 text-4xl leading-normal font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-lime-400 to-lime-100 sm:text-6xl sm:leading-normal">Hola! Soy Rodrigo Lajas</h1>
-                    <p data-aos="fade-left" className="flex items-center justify-center m-4 bg-clip-text text-transparent bg-gradient-to-r from-lime-400 to-lime-100 text-2xl font-bold leading-normal">Soy un desarrollador front-end en formación con pasión por crear aplicaciones web.</p>
+                    <p data-aos="fade-left" className="flex items-center justify-center m-4 bg-clip-text text-transparent bg-gradient-to-r from-lime-400 to-lime-100 text-2xl font-bold leading-normal">Creo sitios web a medida para que tu negocio tenga una imagen profesional y confiable.</p>
+                    <a
+                        data-aos="fade-up"
+                        href="https://ig.me/m/rodrigolajas.dev"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="m-4 inline-block rounded-lg bg-lime-400 px-6 py-3 text-lg font-bold text-gray-900 transition hover:bg-lime-300"
+                    >
+                        Escribime por Instagram!
+                    </a>
                 </div>
             </div>
             <div className="flex mx-auto items-center justify-center">
