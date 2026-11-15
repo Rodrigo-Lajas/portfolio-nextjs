@@ -29,13 +29,6 @@ const navBarItems = [
         animation: "fade-left",
         duration: 500,
     },
-    {
-        id: 5,
-        title: "Contacto",
-        href: "/contact",
-        animation: "fade-right",
-        duration: 600,
-    },
 ]
 
 export default navBarItems;
