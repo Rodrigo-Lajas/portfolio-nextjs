@@ -13,7 +13,7 @@ export default function Page() {
     }, []);
     return (
         <section id="hero" className="bg-gray-800 text-white p-4 pt-12">
-            <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-2">
+            <div className="container mx-auto px-4 py-8 grid grid-cols-1 md:grid-cols-2">
                 <div data-aos="flip-down" className="flex flex-col items-center justify-center">
                     <Image src="/images/IMG_5893.webp" width={800} height={800} alt="Hero Image" className="w-4/5 h-auto object-contain my-8 border-4 border-l-lime-400 border-t-lime-200 border-r-lime-200 border-b-lime-400 shadow-lg rounded-full" loading='eager' />
                 </div>
