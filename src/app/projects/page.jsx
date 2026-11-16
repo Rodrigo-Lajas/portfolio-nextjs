@@ -15,7 +15,7 @@ function ProjectsCard({ title, description, imageUrl, link, tags = [] }) {
     }, []);
     return (
         <article data-aos="fade-up" className="bg-gray-600 card">
-            <img className="object-cover rounded-lg m-4" src={imageUrl} alt={title} />
+            <Image className="object-cover rounded-lg m-4" src={imageUrl} alt={title} loading='eager'/>
             <div className="px-6 py-4 flex flex-col">
                 <h3 className="card-title font-noto-sans">{title}</h3>
                 <p className="text-slate-300 text-sm font-noto-sans h-24 mt-4">{description}</p>
