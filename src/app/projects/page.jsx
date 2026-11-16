@@ -5,6 +5,7 @@ import ProjectsArray from "@/data/ProjectsArray";
 import PropTypes from 'prop-types';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Image from "next/image";
 
 
 {/*tarjeta de proyectos*/}
